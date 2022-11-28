@@ -1,8 +1,8 @@
-n = input('Введи число n: ')
+n = int(input('Введи число n: '))
 
-nn = n + n
-nnn = n + n + n
+nn = str(n) + str(n)
+nnn = str(n) + str(n) + str(n)
 
-result =  int(n) + int(nn) + int(nnn)
+result =  n + int(nn) + int(nnn)
 
 print(f'Результат n + nn + nnn = {result}')

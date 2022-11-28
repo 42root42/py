@@ -8,4 +8,4 @@ year = input('Введи год рождения: ')
 month = input('Введи месяц рождения: ')
 date = input('Введи число рождения: ')
 
-print('Дата рождения: ', date, month, year)
+print(f'Дата рождения: {date} {month} {year}')

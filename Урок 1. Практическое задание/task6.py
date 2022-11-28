@@ -11,8 +11,5 @@ if revenue > costs:
     p2e = revenue / employee
     print(f'Прибыль на одного сортудника составляет: {p2e}')
 
-elif revenue == costs:
-    print('Фирма работает в ноль')
-    
 else:
     print('Фирма работает в убыток')
